@@ -11,7 +11,7 @@
 * `$ mkvirtualenv --python=/bin/python2.7 thinkster-djangular`
 * `$ cd thinkster-django-angular-boilerplate/`
 * `$ pip install -r requirements.txt`
-* `$ npm install -g bower`
+* `$ sudo npm install -g bower`
 * `$ npm install`
 * `$ bower install`
 * `$ python manage.py migrate`
