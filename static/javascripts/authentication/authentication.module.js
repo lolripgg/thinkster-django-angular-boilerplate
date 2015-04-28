@@ -7,7 +7,7 @@
     angular
         .module('thinkster.authentication', [
             'thinkster.authentication.controllers',
-            'thinkster.authentication.service'
+            'thinkster.authentication.services'
         ]);
 
     angular
