@@ -67,14 +67,20 @@
             /**
              * @name columnMapFn
              * @desc A map function for scoring column heights
-             * @returns The approximately normalized height of a given column
+             * @returns {Number} The approximately normalized height of a given column
              */
             function columnMapFn(column) {
                 var lengths = column.map(function (element) {
-                    return element.content.length;
+                    if (element.content !== undefined) {
+                        return element.content.length;
+                    }
                 });
 
-                return lengths.reduce(sum, 0) * column.length;
+                if (column === undefined) {
+                    return lengths.reduce(sum, 0);
+                } else {
+                    return lengths.reduce(sum, 0) * column.length;
+                }
             }
 
             /**
@@ -82,7 +88,7 @@
              * @desc Sums two numbers
              * @params {Number} m The first number to be summed
              * @params {Number} n The second number to be summed
-             * @returns The sum of two numbers
+             * @returns {Number} The sum of two numbers
              */
             function sum(m, n) {
                 return m + n;
