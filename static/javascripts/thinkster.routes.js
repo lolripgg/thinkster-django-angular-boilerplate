@@ -26,7 +26,11 @@
         }).when('/', {
             controller: 'IndexController',
             controllerAs: 'vm',
-            tempalteUrl: '/static/templates/layout/index.html'
+            templateUrl: '/static/templates/layout/index.html'
+        }).when('/+:username', {
+            controller: 'ProfileController',
+            controllerAs: 'vm',
+            templateUrl: '/static/templates/profiles/profile.html'
         }).otherwise('/');
     }
 })();

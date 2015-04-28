@@ -70,7 +70,7 @@
              * @returns The approximately normalized height of a given column
              */
             function columnMapFn(column) {
-                var lengths = column.map(function(element) {
+                var lengths = column.map(function (element) {
                     return element.content.length;
                 });
 
@@ -87,27 +87,27 @@
             function sum(m, n) {
                 return m + n;
             }
+        }
 
-            /**
-             * @name render
-             * @desc Renders Posts into columns of approximately equal height
-             * @param {Array} current The current value of `v.posts`
-             * @param {Array} original The value of `vm.posts` before it was updated
-             * @memberOf thinkster.posts.controllers.PostsController
-             */
-            function render(current, original) {
-                if (current !== original) {
-                    vm.columns = [];
+        /**
+         * @name render
+         * @desc Renders Posts into columns of approximately equal height
+         * @param {Array} current The current value of `v.posts`
+         * @param {Array} original The value of `vm.posts` before it was updated
+         * @memberOf thinkster.posts.controllers.PostsController
+         */
+        function render(current, original) {
+            if (current !== original) {
+                vm.columns = [];
 
-                    for (var i = 0; i < calculateNumberOfColumns(); ++i) {
-                        vm.columns.push([]);
-                    }
+                for (var i = 0; i < calculateNumberOfColumns(); ++i) {
+                    vm.columns.push([]);
+                }
 
-                    for (var i = 0; i < current.length; ++i) {
-                        var column = approximateShortestColumn();
+                for (var i = 0; i < current.length; ++i) {
+                    var column = approximateShortestColumn();
 
-                        vm.columns[column].push(current[i]);
-                    }
+                    vm.columns[column].push(current[i]);
                 }
             }
         }
