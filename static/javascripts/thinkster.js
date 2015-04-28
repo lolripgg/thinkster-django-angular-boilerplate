@@ -5,7 +5,8 @@
       .module('thinkster', [
           'thinkster.config',
           'thinkster.routes',
-          'thinkster.authentication'
+          'thinkster.authentication',
+          'thinkser.layout'
       ]);
 
   angular
