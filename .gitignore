@@ -1,3 +1,6 @@
+#virtualenv directory
+thinkster-djangular
+
 # Python compiled byte code
 *.pyc
 
