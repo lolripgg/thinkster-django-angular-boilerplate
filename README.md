@@ -18,6 +18,9 @@
 * `$ python manage.py runserver`
 
 ## My Installation
+
+*NOTE: Requires [virtualenv](http://virtualenv.readthedocs.org/en/latest/) and [Node.js](http://nodejs.org/).*
+
 * `$ sudo apt-get install python-pip`
 * `$ sudo pip install virtualenv`
 * `$ mkdir -p $HOME/work/solo/venvs`
@@ -26,6 +29,7 @@
 * `$ cd thinkster-django-angular-boilerplate/`
 * `$ pip install -r requirements.txt`
 * `$ sudo npm install -g bower`
+* `$ sudo npm install -g gulp`
 * `$ sudo apt-get install nodejs-legacy`
 * `$ npm install`
 * `$ bower install`
