@@ -35,3 +35,10 @@
 * `$ bower install`
 * `$ python manage.py migrate`
 * `$ python manage.py runserver`
+
+## TODO's
+
+* Add flake8 [OK]
+* Add jshint
+* Add ng-model-options where is possible
+* Refactoring ViewModels to Model as a service (Maybe)
