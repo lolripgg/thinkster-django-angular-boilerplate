@@ -7,7 +7,7 @@ router = routers.SimpleRouter()
 router.register(r'accounts', AccountViewSet)
 
 urlpatterns = patterns(
-     '',
+    '',
     # ... URLs
     url(r'^api/v1/', include(router.urls)),
 
