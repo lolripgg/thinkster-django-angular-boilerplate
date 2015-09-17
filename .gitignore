@@ -15,3 +15,6 @@ dist/
 
 # Staticfiles
 staticfiles/
+
+# PyCharm
+.idea/
