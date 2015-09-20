@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'rest_framework',
     'compressor',
     'authentication',
+    'posts',
 )
 
 MIDDLEWARE_CLASSES = (
