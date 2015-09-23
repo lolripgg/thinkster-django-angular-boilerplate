@@ -9,6 +9,7 @@
     'thinkster.routes',
     'thinkster.authentication',
     'thinkster.layout',
+    'thinkster.posts',
   ]);
 
   angular.module('thinkster').run(run);
