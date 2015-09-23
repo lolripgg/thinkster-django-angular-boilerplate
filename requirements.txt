@@ -9,3 +9,4 @@ gunicorn==19.1.1
 six==1.8.0
 static3==0.5.1
 wsgiref==0.1.2
+flake8
