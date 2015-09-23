@@ -21,6 +21,11 @@
         controllerAs: 'vm',
         templateUrl: '/static/templates/layout/index.html'
       })
+      .when('/+:username', {
+        controller: 'ProfileController',
+        controllerAs: 'vm',
+        templateUrl: '/static/templates/profiles/profile.html'
+      })
       .otherwise('/');
   }
 })();
