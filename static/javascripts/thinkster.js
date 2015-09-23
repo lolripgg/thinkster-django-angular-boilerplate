@@ -11,6 +11,7 @@
     'thinkster.layout',
     'thinkster.posts',
     'thinkster.utils',
+    'thinkster.profiles',
   ]);
 
   angular.module('thinkster').run(run);
