@@ -10,6 +10,7 @@
     'thinkster.authentication',
     'thinkster.layout',
     'thinkster.posts',
+    'thinkster.utils',
   ]);
 
   angular.module('thinkster').run(run);
