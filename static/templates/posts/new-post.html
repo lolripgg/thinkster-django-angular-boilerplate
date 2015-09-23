@@ -1,0 +1,17 @@
+<form role="form" ng-submit="vm.submit()">
+  <div class="form-group">
+    <label for="post__content">New Post</label>
+    <textarea class="form-control"
+              id="post__content"
+              rows="3"
+              placeholder="ex. This is my first time posting on Not Google Plus!"
+              ng-model="vm.content">
+    </textarea>
+  </div>
+
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary">
+      Submit
+    </button>
+  </div>
+</form>

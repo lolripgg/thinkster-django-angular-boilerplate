@@ -13,3 +13,9 @@
 .post .post__meta a:hover {
   text-decoration: none;
 }
+
+.btn-add-new-post {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
