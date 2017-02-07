@@ -1,0 +1,24 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="11">
+            <item index="0" class="java.lang.String" itemvalue="dj-database-url" />
+            <item index="1" class="java.lang.String" itemvalue="six" />
+            <item index="2" class="java.lang.String" itemvalue="Django" />
+            <item index="3" class="java.lang.String" itemvalue="drf-nested-routers" />
+            <item index="4" class="java.lang.String" itemvalue="django-appconf" />
+            <item index="5" class="java.lang.String" itemvalue="wsgiref" />
+            <item index="6" class="java.lang.String" itemvalue="dj-static" />
+            <item index="7" class="java.lang.String" itemvalue="django-compressor" />
+            <item index="8" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="9" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="10" class="java.lang.String" itemvalue="static3" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
